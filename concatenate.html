@@ -1,0 +1,26 @@
+<html>
+<body>
+<title>Array Functions</title>
+<script type="text/javascript">
+var i,sum=0;
+var arr2=new Array(10);
+var arr3=new Array(10);
+var arr=new Array(1,2,3,4,5);
+var arr1=new Array(6,7,8,9,10);
+arr2=arr.concat(arr1);
+for(i=0;i<10;i++)
+{
+alert("Concatenated Array is:- "+arr2);
+}
+arr.sort();
+for(i=0;i<5;i++)
+{
+alert("Sorted Array is:- "+arr);
+}
+arr3=arr.join("&");
+for(i=0;i<10;i++)
+{
+alert("Joined Array is:- "+arr3);
+}
+</script>
+</body>

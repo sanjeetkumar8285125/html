@@ -1,0 +1,74 @@
+h2
+{
+color:white;
+background-color:lightblue;
+font-family:sans-serif;
+font-size:16px;
+
+}
+#a1
+{
+background-color:white;
+font-family:Georgia;
+font-size:16px;
+color:skyblue;
+}
+#a2
+{
+background-color:grey;
+font-family:Georgia;
+font-size:20px;
+color:skyblue;
+font-weight: normal;
+}
+#a3
+{
+background-color:DarkSeaGreen ;
+font-family:"Times New Roman", Times, serif;
+font-size:26px;
+color:OldLace ;
+}
+#button
+{
+background-color:GoldenRod;
+}
+#fb
+{
+ border:1px groove;
+ width:90%;
+ height:37px; 
+ width:200px; 
+ background-color:blue; 
+ font-size:20px; 
+ font-color:#ffffff; 
+ font-weight:bold;
+ }
+ #facebook
+{
+ border:1px groove;
+ width:90%;
+ height:37px; 
+ width:200px; 
+ background-color:mediumvioletred; 
+ font-size:20px; 
+ font-color:#ffffff; 
+ font-weight:bold;
+ }
+ #login
+ {
+border:1px groove;
+ width:70%;
+ height:37px; 
+ width:420px; 
+ background-color:MediumAquaMarine ; 
+ font-size:25px; 
+ font-color:#ffffff; 
+ font-weight:bold;
+ }
+#a6
+{
+	background-image: url("statiscope.jpg"),url("sample-img1.jpg");
+	background-position:right bottom,left top;
+	background-repeat:no-repeat,repeat;
+}
+ 

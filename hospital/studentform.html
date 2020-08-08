@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>
+Student Registration Form
+</title>
+<style type="text/css">
+h1
+{
+color:blue;
+text-decoration:underline;
+font-size:50px;
+background-color:green;
+text-transform:capitalize;
+border-style:dotted;
+border-bottom-style:dashed;
+border-color:orange;
+border-bottom-color:black;
+}
+body
+{
+background-image:url('17496.jpg');
+}
+</style>
+</head>
+<body bgcolor="lightblue">
+
+<center>
+<h1>Hospital Registration Form</h1>
+</center>
+<form name="hospital form" action="dataprocess.php" method="post">
+<table border="4" bgcolor="pink" cellspacing="2px">
+<tr>
+<th> Name of the patient</th>
+<td>&nbsp &nbsp<input type="text" name="fname" maxlength="10" placeholder="enter First name">
+</tr>
+<tr>
+<th>Father/Husband Name</th>
+<td >&nbsp &nbsp<input type="text" name="lname" maxlength="10" placeholder="Enter Last name">
+</tr>
+<tr>
+<th>Father's Name</th>
+<td>&nbsp &nbsp<input type="text" name="fthname" size="25" placeholder="Enter Father's name">
+</tr>
+<tr>
+<th>Mother's Name</th>
+<td>&nbsp &nbsp<input type="text" name="fname" maxlength="10">
+</tr>
+<tr>
+<th>Enroll number</th>
+<td>&nbsp &nbsp<input type="number" name="enroll" maxlength="10"placeholder="Enter enroll number">
+</tr>
+<tr>
+<th>Address</th>
+<td>&nbsp &nbsp <textarea rows="3" cols="28"></textarea></td>
+</tr>
+<tr>
+<th>Date of Birth</th>
+<td>&nbsp &nbsp<Input type="date"></td>
+</tr> 
+<th>mobile number</th>
+<td>&nbsp &nbsp<input type="text" name="fname" maxlength="10"></td>
+</tr>
+<tr>
+<th>Gender</th>
+<td>&nbsp &nbsp<input type="radio" name="g1">Male</input>
+<input type="radio" name="g1">Female</input>
+</tr>
+<tr>
+<th>Qualification</th>
+<td>&nbsp &nbsp<Select name="quali" size="1" multiple>
+<option>10th</option>
+<option>12th</option>
+<option>Under Graduation</option>
+<option>Post Graduation</option></select></td>
+</tr>
+<tr>
+<th>Qualification</th>
+<td>&nbsp &nbsp
+<table>
+<tr>
+<th>S.no</th>
+<th>Examination</th>
+<th>Board</th>
+<th>Percentage</th>
+<th>Year of passing</th>
+</tr>
+<tr>
+<td>1</td>
+<td>class X</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>2</td>
+<td>class XII</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Under graduation</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Post Graduation</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+</td>
+</table>
+</tr>
+<tr>
+<th>Upload photo</th>
+<td>&nbsp &nbsp<input type="File"></td>
+</tr>
+<tr>
+<th>Upload Signature</th>
+<td>&nbsp &nbsp<input type="File"></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="Submit">
+&nbsp &nbsp &nbsp<input type="reset">
+</tr>

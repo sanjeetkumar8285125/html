@@ -1,0 +1,104 @@
+<html>
+<head>
+<script type="text/javascript">
+function validations()
+{
+if(document.emp.fname.value=="")
+{
+alert("Please enter your name");
+document.emp.fname.focus();
+return false;
+}
+if(document.emp.stid.value=="")
+{
+alert("Please enter STudent Id");
+document.emp.stid.focus();
+return false;
+}
+if(document.emp.mno.value=="")
+{
+alert("please enter your mobile number");
+document.emp.mno.focus();
+return false;
+}
+if(emp.mno.value.length > 12)
+{
+alert("mobile number can not exceeds 12 digit!");
+document.emp.mno.focus();
+return false;
+}
+if(isNaN(emp.mno.value))
+{
+alert("mobile nomber cannot be Non numeric!");
+return false;
+}
+if(document.emp.email.value=="")
+{
+alert("Please enter your email id");
+document.emp.email.focus();
+return false;
+}
+return true;
+}
+</script>
+</head>
+<body bgcolor="pink">
+<form method="Post"  onsubmit="return validations();" name="emp">
+<table border="1" bgcolor="cyan" >
+<caption><b>Registration form</b></caption><br>
+<tr>
+<th>Enter your Name </th>
+<td><input type="text" name="fname" required></td>
+</tr>
+<tr>
+<th>Enter your Student Id</th>
+<td><input type ="text" name ="stid" required></td>
+</tr>
+<tr>
+<th>Enter your Address</th>
+<td><textarea rows="2" cols="40" required></textarea></td>
+</tr>
+<tr>
+<th>Enter your email</th>
+<td><input type ="text" name="email"></td>
+</tr>
+
+<tr>
+<th>ReEnter your Date of Birth</th>
+<td><input type="date"></td>
+</tr>
+<tr>
+<tr>
+<th>Enter your mobile</th>
+<td><input type="text" name="mno"></td>
+</tr>
+<tr>
+<th>Select your gender</th>
+<td>
+male<input type="radio" name="g" value="m"/>
+female<input type="radio" name="g" value="f"/>
+</td>
+</tr>
+<tr>
+<th>Qualification</th>
+<td><select name="course" size="1" multiple>
+<option>Matric</option>
+<option>Intermediate</option>
+<option>Under Graduation</option>
+<option>Post Graduation</option></select></td>
+</tr>
+<tr>
+<th>Mp3 file</th>
+<td>
+<embed src="05 If You Hold My Hand.mp3" loop="false"></embed>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="submit" value="Submit"onsubmit="return validations();">
+<input type="reset" value="Reset"/>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
